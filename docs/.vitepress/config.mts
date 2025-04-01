@@ -1,10 +1,10 @@
 /*
  * @Author: hhy
  * @Date: 2025-04-01 09:31:26
- * @LastEditTime: 2025-04-01 09:40:09
+ * @LastEditTime: 2025-04-01 11:37:53
  * @LastEditors: hhy
  * @Description: 
- * @FilePath: \FirstWebiste\docs\.vitepress\config.mts
+ * @FilePath: \vitepress-test\docs\.vitepress\config.mts
  */
 import { defineConfig } from 'vitepress'
 
@@ -13,6 +13,7 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   srcDir: 'src',
+  base: '/vitepress-test',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
