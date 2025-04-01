@@ -13,7 +13,7 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   srcDir: 'src',
-  base: '/vitepress-test',
+  base: '/vitepress-test/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
